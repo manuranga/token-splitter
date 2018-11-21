@@ -1,0 +1,1 @@
+Token splitter secures frontend applications that call oAuth protected (eg: using WSO2 APIM) APIs by preventing XSS token theft and CSRF.

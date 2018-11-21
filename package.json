@@ -1,0 +1,27 @@
+{
+  "name": "interceptor-for-oauth-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env _TS_ENV_FILE=./env-var-dev.json nodemon --inspect ./index.js",
+    "mock": "cross-env _TS_ENV_FILE=./mock/env-var-mock.json nodemon --inspect ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.0",
+    "pino": "^5.8.1",
+    "pino-http": "^4.1.0",
+    "request": "^2.88.0",
+    "url-pattern": "^1.0.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "pino-pretty": "^2.2.3"
+  }
+}

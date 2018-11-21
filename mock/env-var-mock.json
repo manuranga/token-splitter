@@ -1,0 +1,10 @@
+{
+  "TS_LOG_LEVEL": "debug",
+  "TS_COLOR_LOGS": "true",
+  "NODE_TLS_REJECT_UNAUTHORIZED": "0",
+
+  "TS_RUN_MOCK": "true",
+  "TS_CLIENT_ID": "mock_c",
+  "TS_CLIENT_SECRET": "mock_s",
+  "TS_TOKEN_URI": "http://localhost:4000/mock-token"
+}

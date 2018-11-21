@@ -1,0 +1,10 @@
+{
+  "TS_LOG_LEVEL": "info",
+  "TS_TOKEN_URI": "https://localhost:8243/token",
+  "TS_API_BACKEND_URI": "https://localhost:8243",
+  "TS_CLIENT_ID": null,
+  "TS_CLIENT_SECRET": null,
+  "TS_TOKEN_SECOND_PART_HEADER": "x-oauth-token-second-half",
+  "TS_COLOR_LOGS": "false",
+  "TS_PORT": 3000
+}
