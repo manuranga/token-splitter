@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: token-splitter-deployment
+  labels:
+    app: token-splitter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: token-splitter
+  template:
+    metadata:
+      labels:
+        app: token-splitter
+    spec:
+      containers:
+      - name: token-splitter
+        image: ossboneyard/token-splitter
+        ports:
+        - containerPort: 8080
